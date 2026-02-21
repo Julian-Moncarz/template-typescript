@@ -4,3 +4,9 @@ dist/
 out/
 .env*.local
 *.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/

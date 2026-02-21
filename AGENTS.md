@@ -52,6 +52,25 @@
 - CI: GitHub Actions
 - Git hooks: lefthook
 - Issue tracking: Linear (use `lineark` CLI)
+  - `lineark issues list` — see Linear issues
+  - `lineark issues create --title "..." --team <team>` — create an issue
+  - `lineark usage` — full command reference
+
+## Logging
+
+- Use structured logging (key-value pairs), not string interpolation
+- Log at system boundaries: requests in, responses out, external calls, state changes
+- Never log secrets or PII
+- Use standard log levels: DEBUG < INFO < WARNING < ERROR < CRITICAL
+- Configure log level via environment variable (e.g. `LOG_LEVEL`)
+
+## Testing
+
+- Every feature ships with tests
+- Bug fixes start with a failing test
+- Mock external APIs — for speed, reliability, and cost
+- Aim for 80% coverage minimum (`bun test --coverage`)
+- Trivial changes (typos, config) are exempt from the test requirement
 
 ## Domain
 
