@@ -1,1 +1,1 @@
-TypeScript + Next.js project. Use bun for package management. Run `just check` to verify changes. Run `just format` to auto-fix lint/format. Uses Biome for linting/formatting, Tailwind for CSS, shadcn/ui for components.
+AGENTS.md
