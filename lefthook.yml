@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    biome:
+      run: bun biome check .
+    typecheck:
+      run: bun tsc --noEmit
