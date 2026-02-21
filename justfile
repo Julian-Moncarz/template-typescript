@@ -1,3 +1,8 @@
+setup:
+    bun install
+    lefthook install
+    @echo "Ready to go!"
+
 dev:
     bun run next dev
 
