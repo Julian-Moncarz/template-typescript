@@ -47,14 +47,11 @@
 - Runtime + package manager: bun
 - Linter + formatter: biome
 - Type checker: tsc (strict)
-- Framework: Next.js + Tailwind + shadcn/ui
+- Framework: Next.js + Tailwind
 - Tests: bun test
 - CI: GitHub Actions
 - Git hooks: lefthook
-- Issue tracking: Linear (use `lineark` CLI)
-  - `lineark issues list` — see Linear issues
-  - `lineark issues create --title "..." --team <team>` — create an issue
-  - `lineark usage` — full command reference
+- Issue tracking: Linear
 
 ## Logging
 
